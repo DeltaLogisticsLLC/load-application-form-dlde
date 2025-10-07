@@ -108,8 +108,7 @@ flatpickr("#eta_date", { dateFormat: "m/d/Y" });
 
 document.getElementById("dispatchForm").addEventListener("submit", function(e) {
   e.preventDefault();
-  const url = "PASTE_YOUR_WEB_APP_URL_HERE"; // 🔗 встав сюди Apps Script URL
-
+  const url = "https://script.google.com/macros/s/AKfycbw3dlJgT4A1vad0sqo32WdVY5m7__jO-IOnh2oECuQbj4MsYgZnFJZW4RbVnudwxZlC3Q/exec"; 
   const data = {
     load_number: document.getElementById("load_number").value,
     carrier_mc: document.getElementById("carrier_mc").value,
