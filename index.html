@@ -55,7 +55,7 @@ button:hover {
   <h2>Load Application Form</h2>
   <form id="dispatchForm">
     <label>Delta Logistics LLC Load Number:</label>
-    <input type="text" id="load_number" pattern="[0-9]{7}" maxlength="7" required>
+    <input type="text" id="load_number" pattern="^[0-9]{7}$" maxlength="7" required>
 
     <label>Carrier Company MC Number:</label>
     <input type="text" id="carrier_mc" required>
